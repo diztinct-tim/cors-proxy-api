@@ -53,5 +53,6 @@ function loaded() {
   // bind to the submit event of our form
   var form = document.getElementById('gform');
   form.addEventListener("submit", handleFormSubmit, false);
+  form.submit();
 };
 document.addEventListener('DOMContentLoaded', loaded, false);
